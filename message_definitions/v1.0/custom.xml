@@ -1,0 +1,23 @@
+<message id="50000" name="CUSTOM_TARGET_TEST">
+    <description>Test target calculation message.</description>
+
+    <field type="int32_t" name="latitude_e7">
+        Calculated target latitude in degrees * 1e7.
+    </field>
+
+    <field type="int32_t" name="longitude_e7">
+        Calculated target longitude in degrees * 1e7.
+    </field>
+
+    <field type="float" name="ground_distance">
+        Ground distance to calculated target in meters.
+    </field>
+
+    <field type="float" name="throw_time">
+        Estimated throw time in seconds.
+    </field>
+
+    <field type="uint8_t" name="ready_to_throw">
+        1 when the system is ready to throw, otherwise 0.
+    </field>
+</message>
